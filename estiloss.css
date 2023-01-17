@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+html{
+    background: #c0c0c0;
+}
+
+body{
+    height: 1008px;
+    width: 1008px;
+    margin: auto;
+    background: lightblue;
+}
+
+header{
+    height: 245px;
+    width: 1000px;
+    border-radius: 1em;
+}
+
+main{
+    height: 745px;
+    width: 1000px;
+    border-radius: 1em;
+    margin-top: 10px;
+}
+
+aside{
+    height: 745px;
+    width: 395px;
+    border-radius: 1em;
+    background: lightslategray;
+    float: right;
+}
+
+#imagen{
+    height: 245px;
+    width: 445px;
+    background: lightslategray;
+    border-radius: 1em;
+    float: left;
+    box-shadow: 5px 5px 0px #333;
+}
+
+#nombre{
+    height: 245px;
+    width: 545px;
+    background: lightslategray;
+    float: right;
+    border-radius: 1em;
+    box-shadow: 5px 5px 0px #333;
+    position: relative;
+}
+
+.p_nombre{
+    font-size: 1.5cm;
+    position: absolute;
+    top: 20%;
+    margin-left: 30%;
+}
+
+#exp_est{
+    height: 745px;
+    width: 595px;
+    border-radius: 1em;
+    float: left;
+}
+
+#todo_yo{
+    font-size: 1.5em;
+    text-align: left;
+    box-shadow: 5px 5px 0px lightslategray;
+}
+
+#experiencia{
+    height: 367.5px;
+    width: 595px;
+    background: lightslategray;
+    border-radius: 1em;
+    box-shadow: 5px 5px 0px #333;
+}
+
+#estudios{
+    height: 367.5px;
+    width: 595px;
+    background: lightslategray;
+    border-radius: 1em;
+    margin-top: 10px;
+    box-shadow: 5px 5px 0px #333;
+}
+
+.img_edit{
+    height: 225px;
+    width: 400px;
+    margin: 10px 22.5px 10px 22.5px;
+    border-radius: 1em;
+}
+
+/*lista desplegable + datos*/
+
+.contenedor{
+    background: lightslategray;
+    width: 100%;
+    margin-top: 15px;
+    padding-top: 50px;
+    text-align: center;
+    font-size:xx-large;
+    border-radius: 1em;
+}
+
+.boton{
+    cursor: pointer;
+    width: 50px;
+}
+
+.img{
+    width: 50px;
+}
+
+.lista{
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    list-style: none;
+    background: #2f4f4f;
+    padding: 15px;
+}
+
+.dato_individual{
+    height: 20px;
+    font-size: 0.8cm;
+}
+
+.dato_individual:hover{
+    background: #444;
+    padding: 30px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.nav{
+    width: auto;
+    display: none;
+}
+
+.boton{
+    transform: rotate(90deg);
+}
+
+.nav.activo{
+    display: block;
+}
+
+/*experiencia laboral*/
+
+.header_exp{
+    text-align: center;
+    font-size: 1cm;
+    padding-top: 3%;
+}
+
+.lista_exp{
+    list-style: none;
+    text-align: left;
+    margin-left: 1%;
+    padding-top: 0%;
+    font-size: .7cm;
+}
+
+.subheader_exp{
+    font-size: .7cm;
+    margin-left: 3%;
+    padding-top: 3%;
+}
+
+/*estudios*/
+
+.titulo_estudios{
+    text-align: center;
+    font-size: 1cm;
+    padding-top: 3%;
+}
+
+.est_individual{
+    list-style: none;
+    text-align: left;
+    margin-left: 1%;
+    padding-top: 4%;
+    font-size: .8cm;
+}
